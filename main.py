@@ -21,7 +21,7 @@ print(m4.min(axis=1))
 print(m4.min(axis=0))
 
 # Zad3
-# Wykorzystaj macierze z zadania pierwszego i wykonaj iloczyn macierzy.
+# Wykorzystaj macierze z zadania pierwszego i wykonaj iloraz macierzy.
 
 print("\nZad3")
 print(np.divide(m1, m2))
