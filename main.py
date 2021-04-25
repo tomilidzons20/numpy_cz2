@@ -24,7 +24,9 @@ print(m4.min(axis=0))
 # Wykorzystaj macierze z zadania pierwszego i wykonaj iloraz macierzy.
 
 print("\nZad3")
-print(np.divide(m1, m2))
+print(np.dot(m1.T, m2))
+# trasponowane ze wzgledu na brak mozliwosci mnozenia macierzy 1x3 przez 1x3
+
 
 # Zad4
 # Utwórz dwie macierze 1x3 gdzie pierwsza z nich będzie zawierała liczby całkowite,
