@@ -69,7 +69,7 @@ print(np.add(a, b))
 
 m9 = np.arange(9).reshape(3, 3)
 print("\nZad8")
-for a in m9.T:
+for a in m9:
     print(a)
 
 # Zad9
