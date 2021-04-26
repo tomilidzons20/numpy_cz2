@@ -90,6 +90,8 @@ print("\nZad10")
 print(m11)
 print(m11.reshape(3, 27))
 print(m11.reshape(27, 3))
+print(m11.reshape(81, 1))
+print(m11.reshape(1, 81))
 # mamy mozliwosc zmienic ksztalt tylko w taki sposob by dalej ilosc
 # wszystkich elementow macierzy ze zmienionym ksztaltem
 # rownala sie ilosci wszystkich elementow w pierwotnej macierzy
